@@ -186,6 +186,7 @@ nav{
   }
   .sign-in{
     display: inline-block;
+    font-size: 0.875rem;
   }
 }
 
@@ -296,6 +297,11 @@ Sidebar
   visibility: visible;
   z-index: 2;
   transform: scale(1);
+}
+@media screen and (min-width: 800px) {
+  .sidebar-wrapper{
+    display: none;
+  }
 }
 .sidebar{
   background: var(--clr-white);

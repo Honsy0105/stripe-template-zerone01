@@ -49,7 +49,7 @@ toggleNav.addEventListener('click', () => {
   sidebarWrapper.classList.add('show')
 })
 closeSidebar.addEventListener('click', () => {
-  sidebarWrapper.classList.remove('.show')
+  sidebarWrapper.classList.remove('show')
 })
 
 linkBtns.forEach(btn => {

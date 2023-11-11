@@ -303,8 +303,7 @@ Sidebar
   width: 90vw;
   height: 95vh;
   min-width: var(--fixed-width);
-  position: relative;
-  top: 1rem;
+  top: 0.5rem;
   left: 2rem;
   padding: 4rem 2rem;
 }
@@ -313,9 +312,9 @@ Sidebar
   background: transparent;
   font-size: 2rem;
   color: var(--clr-grey-4);
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
   cursor: pointer;
 }
 .sidebar p{
